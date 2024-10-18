@@ -26,4 +26,7 @@ return new class extends Migration
     {
         Schema::dropIfExists('clientes');
     }
+    //Valor int:
+//Integer no migration
+//Numeric controller e definir valores em ambos
 };
